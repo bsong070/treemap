@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <title>D3 Tree Map</title>
+</head>
+<body>
+    <h1 id="title">Video Game Sales</h1>
+    <p id="description">Top 100 Most Sold Video Games Grouped by Platform</p>
+    <div id="tooltip"></div>
+    <svg id="canvas">
+
+    </svg>
+
+    <svg id="legend">
+        <g>
+            <rect class="legend-item" fill='orange' x='10' y='0' width='40' height='40'></rect>
+            <text x='60' y='20' fill='black'>Action</text>
+        </g>
+        <g>
+            <rect class="legend-item" fill='lightgreen' x='10' y='40' width='40' height='40'></rect>
+            <text x='60' y='60' fill='black'>Adventure</text>
+        </g>
+        <g>
+            <rect class="legend-item" fill='coral' x='10' y='80' width='40' height='40'></rect>
+            <text x='60' y='100' fill='black'>Family</text>
+        </g>
+        <g>
+            <rect class="legend-item" fill='lightblue' x='10' y='120' width='40' height='40'></rect>
+            <text x='60' y='140' fill='black'>Drama</text>
+        </g>
+        <g>
+            <rect class="legend-item" fill='pink' x='10' y='160' width='40' height='40'></rect>
+            <text x='60' y='180' fill='black'>Animation</text>
+        </g>
+        <g>
+            <rect class="legend-item" fill='tan' x='10' y='200' width='40' height='40'></rect>
+            <text x='60' y='220' fill='black'>Comedy</text>
+        </g>
+        <g>
+            <rect class="legend-item" fill='yellow' x='10' y='240' width='40' height='40'></rect>
+            <text x='60' y='260' fill='black'>Biography</text>
+        </g>
+    </svg>
+</body>
+<script src="./index.js"></script>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
